@@ -107,6 +107,7 @@ The Gaussian Elimination Method is a standard technique for solving systems of l
  
 
 **Steps**
+
   1. Write the augmented matrix of the system of linear equations.
 
   2. Transform the pivot element to 1.
@@ -120,3 +121,23 @@ The Gaussian Elimination Method is a standard technique for solving systems of l
   6. Check the solution.
 
      
+
+**Iteration Method**
+------------------------------------------
+The Iteration Method is a numerical technique used to find approximate solutions of equations, especially when exact solutions are difficult to obtain. It generates a sequence of approximations that converge to the actual solution through repeated application of a formula.
+
+
+**Steps**
+
+  1. Rewrite the equation in the form x = g(x)
+
+  2. Choose an initial guess x0, preferably close to the root.
+
+  3. Compute the next approximation using the iteration formula:
+      x1 = g(x0), x2 = g(x1), x3 = g(x2),........
+
+  4. Check for convergence: If |xn - xn -1| < tolerance, stop the iteration.
+
+  5. Repeat the iteration until the desired accuracy is achieved.
+
+  6. Take the final value as the approximate root of the equation.
