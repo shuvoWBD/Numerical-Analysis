@@ -165,5 +165,39 @@ So the original matrix can be represented as:
    
      * Lij = (Aij - ∑ Lik​ Ukj) / Uij(for i > j)
 
- 3. Solve L⋅Y=B (forward substitution) and U⋅X=Y (backward substitution) to get the solution.​​
+ 3. Solve L⋅Y=B (forward substitution) and U⋅X=Y (backward substitution) to get the solution.
+
+
+
+**Newton Rapson Method**
+----------------------------------------
+The Newton-Raphson Method is a numerical technique used to find approximate roots of a real-valued function **f(x)=0**. It is an iterative method that uses the derivative of the function to quickly converge to the root.
+
+**Formula**
+The Newton-Raphson method formula is written as follows:
+               Xn = Xn - 1 - (f(xn -1) / f′(Xn - 1)
+
+Where, 
+
+  * xn-1 is the estimated (n-1)th root of the function.
+    
+  * f(xn-1) is the value of the equation at (n-1)th estimated root.
+    
+  * f'(xn-1) is the value of the first order derivative of the equation or function at xn-1
+ 
+
+**Steps**
+
+1. f(x) for different values of x .
+
+2. A tangent is drawn to f(x) at x0. This is the initial value.
+
+3. his tangent will intersect the X- axis at some fixed point (x1, 0) if the first derivative of f(x) is not zero i.e. f'(x0) ≠ 0.
+
+4.  As this method assumes iteration of roots, this x1 is considered to be the next approximation of the root.
+
+5.  Now steps 2 to 4 are repeated until we reach the actual root x.
+
+
+​​
 
