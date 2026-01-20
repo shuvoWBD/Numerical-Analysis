@@ -200,4 +200,24 @@ Where,
 
 
 ​​
+**Eular's Method**
+-----------------------------------------------
+Euler’s Method is a simple numerical technique used to find approximate solutions of first-order ordinary differential equations (ODEs) of the form:
+                        dy / dx = f(x,y),  y(x0) = y0
 
+
+**Formula**
+               Yn+1 = Yn + h.f(Xn,Yn)
+               
+   where h = step size
+
+
+**Steps**
+
+ 1. Start with the initial condition (x0, y0)
+
+ 2. Choose a step size h.
+
+ 3. Compute Yn+1 = Yn + h.f(Xn,Yn)
+
+ 4. Update Xn+1 = Xn + h and repeat until the desired X is reached.
