@@ -67,3 +67,19 @@ c = a - ( f(a) * (b - a) ) / f(a) - f(b)
 
 
 
+**Fixed Point Iteration Method**
+--------------------------------------------
+The fixed point iteration is a numerical method to approximate solutions of algebraic or transcendental equations by repeatedly applying a function g(x) such that g(x) = x. It simplifies solving complex equations like cubic or transcendental ones. The method finds the root by iterating until successive values converge to a fixed point.
+
+
+
+
+**Steps**
+
+  1. Choose the initial guess x₀ as the average of a and b where f(a) < 0 and f(b) > 0.
+
+  2. Rewrite the equation as x = g(x) with |g’(x₀)| < 1, choosing the g(x) that gives the smallest |g’(x₀)| if multiple forms exist.
+
+  3. Using xn = g(xn–1), the sequence {xn} converges to a fixed point l₀, giving the approximate solution.
+
+
