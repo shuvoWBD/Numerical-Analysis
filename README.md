@@ -141,3 +141,29 @@ The Iteration Method is a numerical technique used to find approximate solutions
   5. Repeat the iteration until the desired accuracy is achieved.
 
   6. Take the final value as the approximate root of the equation.
+
+
+
+**LU Decomposition**
+-------------------------------------------
+LU decomposition or factorization of a matrix is the factorization of a given square matrix into two triangular matrices, one upper triangular matrix and one lower triangular matrix. It is a fundamental technique in linear algebra used to solve systems of linear equations, invert matrices, and compute determinants. Computers usually solve square systems of linear equations using LU decomposition.
+
+LU Decomposition breaks a square matrix A into two matrices:
+L is a lower triangular matrix with 1s on its diagonal, and
+U an upper triangular matrix.
+
+So the original matrix can be represented as:
+               **A = L × U**
+               
+
+**Steps**
+
+ 1. Write matrix 𝐴 and initialize L (lower triangular with 1s) and U (upper triangular).
+
+ 2. Decompose A into L and U using:
+     * Uij = Aij - ∑ Lij Ukj(for i <= j)
+   
+     * Lij = (Aij - ∑ Lik​ Ukj) / Uij(for i > j)
+
+ 3. Solve L⋅Y=B (forward substitution) and U⋅X=Y (backward substitution) to get the solution.​​
+
