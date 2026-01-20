@@ -72,8 +72,6 @@ c = a - ( f(a) * (b - a) ) / f(a) - f(b)
 The fixed point iteration is a numerical method to approximate solutions of algebraic or transcendental equations by repeatedly applying a function g(x) such that g(x) = x. It simplifies solving complex equations like cubic or transcendental ones. The method finds the root by iterating until successive values converge to a fixed point.
 
 
-
-
 **Steps**
 
   1. Choose the initial guess x₀ as the average of a and b where f(a) < 0 and f(b) > 0.
@@ -83,3 +81,42 @@ The fixed point iteration is a numerical method to approximate solutions of alge
   3. Using xn = g(xn–1), the sequence {xn} converges to a fixed point l₀, giving the approximate solution.
 
 
+
+**Gaussian Elimination Method**
+---------------------------------------------------
+The Gaussian Elimination Method is a standard technique for solving systems of linear equations by systematically reducing them to find the values of unknown variables. It has practical applications in areas like traffic flow analysis, where it helps model and optimize the movement of vehicles at intersections, improving efficiency and reducing congestion.
+
+
+**Steps**
+
+  1. Get a 1 in the first column, first row.
+     
+  2. Use the 1 to get 0’s in the remainder of the first column.
+     
+  3. Get a 1 in the second column, second row.
+     
+  4. Use the 1 to get 0’s in the remainder of the second column.
+     
+  5. Get a 1 in the third column, third row.
+
+
+
+**Gauss Jordan Method**
+--------------------------------------------
+ The Gauss-Jordan method, also known as Gauss-Jordan elimination method is used to solve a system of linear equations and is a modified version of Gauss Elimination Method. This method is widely used in engineering, mathematics, and computer applications for solving multiple linear equations efficiently.
+ 
+
+**Steps**
+  1. Write the augmented matrix of the system of linear equations.
+
+  2. Transform the pivot element to 1.
+
+  3. Make all other elements in the pivot column zero.
+
+  4. Move to the next pivot.
+
+  5. Read the solution directly.
+
+  6. Check the solution.
+
+     
