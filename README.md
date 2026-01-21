@@ -389,4 +389,21 @@ Here,
 
 **Steps**
 
+1. Define the function f(x) whose root you want to find.
+
+2. Choose two initial guesses x1 and x2 close to the expected root.
+
+3. **Compute the next approximation** using:
+
+      x0 = ( x1f(x2) - x2f(x1) ) / ( f(x2) - f(x1) )
+
+4. **Check if the new value is accurate:** if |x0 - x2| < tolerance, stop.
+
+5. **Update the guesses:**  set x1 = x2, x2 =x0 and repeat steps 3–4.
+
+6. **Continue until convergence.** The final x0 is the root.
+
+
+
+**
   
