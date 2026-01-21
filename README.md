@@ -13,6 +13,7 @@ The bisection method is a technique for finding solutions to equations with a si
 
 
 **Steps**
+
 1. Find the middle point c = (a + b) / 2
 
 2. If f(c) = 0, then c is the root of the equation.
@@ -154,6 +155,7 @@ L is a lower triangular matrix with 1s on its diagonal, and
 U an upper triangular matrix.
 
 So the original matrix can be represented as:
+
                **A = L × U**
                
 
@@ -162,11 +164,12 @@ So the original matrix can be represented as:
  1. Write matrix 𝐴 and initialize L (lower triangular with 1s) and U (upper triangular).
 
  2. Decompose A into L and U using:
+ 3. 
      * Uij = Aij - ∑ Lij Ukj(for i <= j)
    
      * Lij = (Aij - ∑ Lik​ Ukj) / Uij(for i > j)
 
- 3. Solve L⋅Y=B (forward substitution) and U⋅X=Y (backward substitution) to get the solution.
+ 4. Solve L⋅Y=B (forward substitution) and U⋅X=Y (backward substitution) to get the solution.
 
 
 
@@ -177,6 +180,7 @@ The Newton-Raphson Method is a numerical technique used to find approximate root
 **Formula**
 
 The Newton-Raphson method formula is written as follows:
+
                Xn = Xn - 1 - (f(xn -1) / f′(Xn - 1)
 
 Where, 
@@ -205,6 +209,7 @@ Where,
 **Eular's Method**
 -----------------------------------------------
 Euler’s Method is a simple numerical technique used to find approximate solutions of first-order ordinary differential equations (ODEs) of the form:
+
                         dy / dx = f(x,y),  y(x0) = y0
 
 
