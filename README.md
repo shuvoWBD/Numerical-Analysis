@@ -40,6 +40,7 @@ Regula Falsi Method, also known as the False Position Method, is a numerical met
 
 
 **Formula**
+
 The Regula Falsi method uses the following formula to approximate the root:
 
 c = a - ( f(a) * (b - a) ) / f(a) - f(b)
@@ -174,6 +175,7 @@ So the original matrix can be represented as:
 The Newton-Raphson Method is a numerical technique used to find approximate roots of a real-valued function **f(x)=0**. It is an iterative method that uses the derivative of the function to quickly converge to the root.
 
 **Formula**
+
 The Newton-Raphson method formula is written as follows:
                Xn = Xn - 1 - (f(xn -1) / f′(Xn - 1)
 
@@ -207,6 +209,7 @@ Euler’s Method is a simple numerical technique used to find approximate soluti
 
 
 **Formula**
+
                Yn+1 = Yn + h.f(Xn,Yn)
                
    where h = step size
