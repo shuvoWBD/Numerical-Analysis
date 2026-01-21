@@ -251,3 +251,21 @@ Muller’s Method is a numerical technique used to find the roots of a non-linea
 5. Replace the oldest value with x3 and repeat the process.
 
 6. Stop the iteration when the difference between successive approximations is within the desired tolerance.
+
+
+
+
+**Newton Forward And Backward Interpolation**
+-----------------------------------------------------------
+Newton Forward and Backward Interpolation are numerical techniques used to estimate the value of a function at a point based on known discrete data points. They are commonly used in interpolation, where we want to find values inside the range of given data.
+
+
+**Steps**
+
+1. Prepare the difference table (forward or backward).
+
+2. Compute u based on the position of the value.
+
+3. Multiply differences with successive u-terms and divide by factorials.
+
+4. Add all terms to the initial value to get the approximate result.
