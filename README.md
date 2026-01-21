@@ -1,5 +1,7 @@
 # Numerical-Analysis
 
+Numerical Analysis is a branch of mathematics that deals with approximating solutions to mathematical problems using numerical methods, rather than exact formulas. It is especially useful when exact solutions are difficult or impossible to find.
+
 
 
 **Bisection Method**
