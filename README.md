@@ -322,4 +322,40 @@ The power method is an iterative algorithm that can be used to determine the lar
 
 
 
+**Runge-Kutta 4th Order Method**
+----------------------------------------------------
+Runge–Kutta 4th Order Method (RK4) is a numerical technique used to approximate solutions of first-order ordinary differential equations of the form :
+
+                   dy / dx = f(x, y),    y(x0) = y0
+
+
+**Main Formula:**
+
+                     k1 = h f(xn, yn)
+
+                     k2 = h f(xn + h/2, yn + k1)
+
+                     k3 = h f(xn + h/2, yn + k2)
+
+                     k4 = h f(xn + h, yn + k3)
+
+                     yn+1 = yn + 1/6(k1 + 2k2 + 2k3 + k4)
+
+
+**Steps**
+
+ 1. Start with initial values x0 and y0.
+
+ 2. Choose a step size h.
+
+ 3. Compute k1, k2, k3, k4.
+
+ 4. Find the next value yn+1 using the RK4 formula.
+
+ 5. Update xn+1 = xn + h.
+
+ 6. Repeat the steps until the required x is reached.
+
+
+
 **
