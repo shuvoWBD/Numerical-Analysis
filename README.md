@@ -366,3 +366,27 @@ Secant method is a recursive method for finding the root of a polynomial by succ
 
 * It's similar to the Regular-falsi method, but here we don't need to check f(x1)f(x2) < 0 again and again after every approximation.
 
+
+**Secant line**
+
+A secant line is a straight line that intersects a curve at two distinct points. In the context of calculus, the secant line can be used to approximate the slope of the curve between those two points. The slope of the secant line is calculated as the change in the y-values divided by the change in the x-values between the two points.
+
+For a function f(x), the secant line through the points (x0, f(x0)) and (x1, f(x1)) has the equation:
+
+slope of secant line = (f(x1) - f(x0)) / (x1 - x0)
+
+
+**Formula for Secant Method**
+
+The equation of Secant line passing through two points is : 
+
+Y - Y1 = m(X - X1)
+
+Here,
+
+   m = slope
+
+
+**Steps**
+
+  
