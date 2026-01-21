@@ -405,5 +405,32 @@ Here,
 
 
 
-**
+**Trapezoidal Rule Method**
+--------------------------------------------------------------
+
+Trapezoidal Rule is a numerical method used to approximate the definite integral of a function, i.e., the area under a curve. It is more accurate than the simple rectangle method because it approximates the area under the curve as a trapezoid rather than a rectangle.
   
+
+**Formula:**
+
+For a function f(x) over the interval [a, b]:
+
+∫(a to b) = f(x)dx = (h/2) [f(a) + f(b)]
+
+
+**Steps**
+
+1. Divide the interval [a, b] into n equal subintervals.
+
+2. Calculate the step size: h = (b - a) / n
+
+3. Evaluate the function at all points x0, x1, ................., xn
+
+4. Apply the trapezoidal formula: multiply the end points by 1 and middle points by 2, then multiply the sum by h/2.
+
+5. The result gives the approximate value of the integral.
+
+
+
+
+​
