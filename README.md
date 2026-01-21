@@ -221,3 +221,25 @@ Euler’s Method is a simple numerical technique used to find approximate soluti
  3. Compute Yn+1 = Yn + h.f(Xn,Yn)
 
  4. Update Xn+1 = Xn + h and repeat until the desired X is reached.
+
+
+
+
+**Muller's Method**
+----------------------------------------------
+Muller’s Method is a numerical technique used to find the roots of a non-linear equation f(x)=0. It uses three initial approximations and fits a quadratic curve through them to estimate the root.
+
+
+**Steps**
+
+1. Choose three initial approximations x0, x1, x2 close to the root.
+
+2. Evaluate the function values f(x0), f(x1), f(x2).
+
+3. Fit a quadratic polynomial through the three points.
+
+4. Compute the root of the quadratic equation to obtain the next approximation x3.
+
+5. Replace the oldest value with x3 and repeat the process.
+
+6. Stop the iteration when the difference between successive approximations is within the desired tolerance.
