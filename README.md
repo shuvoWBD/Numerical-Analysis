@@ -269,3 +269,31 @@ Newton Forward and Backward Interpolation are numerical techniques used to estim
 3. Multiply differences with successive u-terms and divide by factorials.
 
 4. Add all terms to the initial value to get the approximate result.
+
+
+
+**Newton's Dividend Method**
+------------------------------------------------------------------
+Newton’s Divided Difference Method is an interpolation technique used to estimate the value of a function from given data points, especially when the x-values are not equally spaced.
+
+
+**Steps**
+
+1. Arrange the given data points (x0, y0), (x1, y1), ......... in tabular form.
+
+2. Construct the divided difference table using the formula:
+
+      f[xi, xi+1] =( f[xi] - f[xi+1] ) / ( xi - xi+1)
+
+   Higher-order divided differences are computed similarly.
+
+4. Form the Newton divided difference polynomial:
+      p(x) = y0 + (x - x0)f[x0, x1] + (x - x0)(x - x1)f[x0, x1, x2] + ......
+
+5. Evaluate the polynomial at the required value of x using the computed divided differences.
+
+6. The final computed value is taken as the interpolated result.
+
+
+
+**
