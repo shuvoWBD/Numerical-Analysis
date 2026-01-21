@@ -358,4 +358,11 @@ Runge–Kutta 4th Order Method (RK4) is a numerical technique used to approximat
 
 
 
-**
+**Secant Method**
+---------------------------------------------------------
+Secant method is a recursive method for finding the root of a polynomial by successive approximation.
+
+* In this method, the neighborhood roots are approximated by secant line to the function f(x).
+
+* It's similar to the Regular-falsi method, but here we don't need to check f(x1)f(x2) < 0 again and again after every approximation.
+
