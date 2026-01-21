@@ -292,6 +292,17 @@ Newton’s Divided Difference Method is an interpolation technique used to estim
 
 5. Evaluate the polynomial at the required value of x using the computed divided differences.
 
+
+
+**Power Method**
+-------------------------------------------------------
+The power method is an iterative algorithm that can be used to determine the largest eigenvalue of a square matrix. The algorithm works by starting with a random initial vector, and then iteratively applying the matrix to the vector and normalizing the result to obtain a sequence of improved approximations for the eigenvector associated with the largest eigenvalue. 
+
+
+
+**Steps**
+  
+
 6. The final computed value is taken as the interpolated result.
 
 
