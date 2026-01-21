@@ -296,4 +296,4 @@ Newton’s Divided Difference Method is an interpolation technique used to estim
 
 
 
-**
+**Power Method**
